@@ -125,17 +125,19 @@ class Socialportal extends StatelessWidget {
               ),
 
               // EcoProjectWidget'lar
-              SendFuelWidget(
-                title: 'Send Fuel',
-                subtitle: 'Support our projects with Green Fuelz',
-                color: const Color(0xFF295F87),
-                imagePath: 'assets/images/fuel.png',
-              ),
               EcoProjectWidget(
-                imagePath: 'assets/images/forest.jpg',
+                imagePath: 'assets/images/completed.png',
                 ecoName: 'Plant 100K trees',
                 text:
-                    'Join our green initiative to plant trees and combat climate change.',
+                    'Join our green initiative to transform Sri Lanka\'s landscape...',
+                fundsCollected: '200',
+                unit: 'Fuelz liters',
+              ),
+              EcoProjectWidget(
+                imagePath: 'assets/images/current.png',
+                ecoName: 'Plant 100K trees',
+                text:
+                    'Join our green initiative to transform Sri Lanka\'s landscape...',
                 fundsCollected: '200',
                 unit: 'Fuelz liters',
               ),
